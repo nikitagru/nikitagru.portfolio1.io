@@ -149,8 +149,8 @@ p.link-ico {
 @media screen and (max-width: 768px) {
 	div.navbar {
 		display: grid;
-		grid-template-rows: 7vw 10vw;
-		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 7vw;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 	div.navbar-menu {
@@ -163,8 +163,28 @@ p.link-ico {
 	}
 
 	li a {
-		font-size: 1.5vw;
+		font-size: 1.7vw;
 	}
+
+	p.link-ico {
+		padding: 0 1vw;
+		margin-top: 30px;
+	}
+	
+	p.link-ico a {
+		height: 20px;
+		width: 20px;
+	}
+
+	p.link-ico img {
+		height: 20px;
+		width: 20px;
+	}
+	
+	div.navbar-contacts {
+		justify-content: center;
+	}
+
 }
 
 /*Media querys for NavBar section*/
